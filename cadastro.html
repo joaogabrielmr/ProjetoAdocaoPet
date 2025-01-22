@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/cadastro.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="assets/img/logo.jpg" alt=""/>
+      </div>
+      <div class="links">
+        <a class="active" href="index.html">Home</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="sobre.html">Sobre</a>
+      </div>
+    </nav>
+    <section>
+      <div class="forms-caixa">
+        <div class="forms-valores">
+          <form action="">
+            <h2>CADASTRO</h2>
+            <div class="inputs">
+              <i class="fa-solid fa-user"></i>
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div class="inputs">
+              <i class="fa-solid fa-envelope"></i>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="inputs">
+              <i class="fa-solid fa-location-dot"></i>
+              <label for="endereço">Endereço</label>
+              <input type="email" id="endereço" name="endereço" />
+            </div>
+            <div class="inputs">
+              <i class="fa-solid fa-phone"></i>
+              <label for="telefone">Telefone</label>
+              <input type="number" id="telefone" name="telefone"/>
+            </div>
+            <div class="novidades">
+              <label for="novidades"> Receber novidades no Email</label>
+              <input type="checkbox" id="novidades" name="novidades" value="novidades"/>
+            </div>
+            <button type="button" class="button-cadastro">
+              <a href="index.html">Cadastra-se</a>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h4>@caopanheiros</h4>
+    </footer>
+  </body>
+</html>
